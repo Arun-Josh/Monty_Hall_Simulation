@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// A Kotlin Program to simulate Monty Hall Problem with and without switching the door.
+
 fun main() {
 
     val totalGames = 100
