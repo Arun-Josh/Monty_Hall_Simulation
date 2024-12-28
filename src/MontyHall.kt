@@ -4,7 +4,7 @@ fun main() {
 
     val totalGames = 100
     var totalWins = 0
-    val switchDoor = true
+    val switchDoor = false
 
     for (gameNo in 1 .. totalGames) {
 
