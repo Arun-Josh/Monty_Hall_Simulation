@@ -2,9 +2,9 @@
 
 fun main() {
 
-    val totalGames = 100
+    val totalGames = 10000
     var totalWins = 0
-    val switchDoor = false
+    val switchDoor = true
 
     for (gameNo in 1 .. totalGames) {
 
@@ -48,7 +48,7 @@ fun main() {
 
         if (gameWon) {
             totalWins = totalWins + 1;
-            println(" * $$$ You found the door withs car $$$")
+            println(" * $$$ Player won the car $$$")
         } else {
             println(" * You lost :(")
         }
